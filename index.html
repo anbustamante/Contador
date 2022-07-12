@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contador</title>
-</head>
-<body>
-    <div class="contenedor">
+  </head>
+  <body>
+    <div>
+      <div class="contenedor">
         <div class="caja">
-            <h1>LOCAL</h1>
-            <div class="caja-contador">
-                <p class="puntaje" id="plocal">0</p>
-            </div>
-            <div class="contenedor-de-botones">
-                <button onclick="incrementL(2)">+2</button>
-                <button onclick="incrementL(3)">+3</button>
-                <button onclick="incrementL(5)">+5</button>
-            </div>
+          <h1>LOCAL</h1>
+          <div class="caja-contador">
+            <p class="puntaje" id="plocal">0</p>
+          </div>
+          <div class="contenedor-de-botones">
+            <button class="boton-incremento"onclick="incrementL(2)">+2</button>
+            <button class="boton-incremento"onclick="incrementL(3)">+3</button>
+            <button class="boton-incremento"onclick="incrementL(5)">+5</button>
+          </div>
         </div>
         <div class="caja">
-            <h1>VISITANTE</h1>
-            <div class="caja-contador">
-                <p class="puntaje" id="pvis">0</p>
-            </div>
-            <div class="contenedor-de-botones">
-                <button onclick="incrementV(2)">+2</button>
-                <button onclick="incrementV(3)">+3</button>
-                <button onclick="incrementV(5)">+5</button>
-            </div>
+          <h1>VISITANTE</h1>
+          <div class="caja-contador">
+            <p class="puntaje" id="pvis">0</p>
+          </div>
+          <div class="contenedor-de-botones">
+            <button class="boton-incremento" onclick="incrementV(2)">+2</button>
+            <button class="boton-incremento" onclick="incrementV(3)">+3</button>
+            <button class="boton-incremento" onclick="incrementV(5)">+5</button>
+          </div>
         </div>
+      </div>
+      <div class="contenedor-inf">
+        <button>Undo</button>
+        <button>Nuevo juego</button>
+        <button>Undo</button>
+      </div>
     </div>
-    <script src="script.js"></script> 
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
