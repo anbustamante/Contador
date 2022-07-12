@@ -75,7 +75,12 @@ h1{
     color:#1B244A;
 }
 .reset{
-
+    border: 2px solid #9ad8a2;
+    color: #9ad8a2;
+}
+.reset:hover{
+    background-color: #9ad8a2;
+    color:#1B244A;
 }
 .undo{
 
