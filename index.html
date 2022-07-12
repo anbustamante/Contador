@@ -16,6 +16,7 @@
             <p class="puntaje" id="plocal">0</p>
           </div>
           <div class="contenedor-de-botones">
+            <button class="boton-incremento" onclick="incrementL(-1)">-1</button>
             <button class="boton-incremento"onclick="incrementL(2)">+2</button>
             <button class="boton-incremento"onclick="incrementL(3)">+3</button>
             <button class="boton-incremento"onclick="incrementL(5)">+5</button>
@@ -27,18 +28,16 @@
             <p class="puntaje" id="pvis">0</p>
           </div>
           <div class="contenedor-de-botones">
+            <button class="boton-incremento" onclick="incrementV(-1)">-1</button>
             <button class="boton-incremento" onclick="incrementV(2)">+2</button>
             <button class="boton-incremento" onclick="incrementV(3)">+3</button>
             <button class="boton-incremento" onclick="incrementV(5)">+5</button>
-          </div>
+        </div>
         </div>
       </div>
-      <div class="contenedor-inf">
-        <button>Undo</button>
-        <button>Nuevo juego</button>
-        <button>Undo</button>
-      </div>
+      <button class="reset">Nuevo juego</button>
     </div>
+    
     <script src="script.js"></script>
   </body>
 </html>
