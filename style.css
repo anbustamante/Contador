@@ -10,7 +10,7 @@
   }
 .contenedor, .contenedor-inf{
     background-color:#1B244A;
-    width: 575px;
+    width: 650px;
     height: 385px;
     display: flex;
     justify-content: space-around;
@@ -73,4 +73,10 @@ h1{
 .boton-incremento:hover{
     background-color: #9AABD8;
     color:#1B244A;
+}
+.reset{
+
+}
+.undo{
+
 }
