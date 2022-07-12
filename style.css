@@ -1,6 +1,13 @@
 .contenedor{
     background-color:#1B244A;
-    width: 500px;
-    height: 300px;
+    width: 575px;
+    height: 385px;
     display: flex;
+    justify-content: space-around;
+}
+.caja{
+    border: 1px solid black;
+    width: 155px;
+    margin-top: 68px;
+    margin-bottom: 68px;
 }
