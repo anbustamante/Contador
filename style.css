@@ -1,0 +1,6 @@
+.contenedor{
+    background-color:#1B244A;
+    width: 500px;
+    height: 300px;
+    display: flex;
+}
